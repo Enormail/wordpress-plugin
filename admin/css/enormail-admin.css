@@ -1,0 +1,106 @@
+/**
+ * Enormail Worpdress Plugin Aamin CSS.
+ */
+.enormail-wrapper {
+    margin:0 0 0 -20px;
+}
+
+.enormail-header {
+    height: 55px;
+    overflow:hidden;
+    background:#13295D;
+    color:#fff;
+    padding:10px 30px;
+}
+
+.enormail-header-logo {
+    float:left;
+    margin:14px 10px 0 0;
+}
+
+.enormail-notice {
+    margin:20px 30px 0 30px;
+}
+
+.enormail-header-title {
+    display:inline-block;
+}
+
+.enormail-header-title h2 {
+    color:#fff;
+    margin:16px 0 0 0;
+    padding:0;
+}
+
+.enormail-content {
+    padding:30px;
+}
+
+.enormail-content-sm {
+    max-width:680px;
+}
+
+.enormail-content p.lead {
+    font-size:16px;
+    line-height:24px;
+}
+
+.enormail-well {
+    padding:20px 0 10px 0;
+    margin:20px 0;
+}
+
+.enormail-api-key-field label {
+    display:block;
+    font-size:16px;
+    font-weight:bold;
+    padding:0 0 12px 0;
+}
+
+.enormail-api-key-field input {
+    padding:8px 12px;
+    width:100%;
+}
+
+.enormail-button-lg {
+    padding:10px 30px !important;
+    height:auto !important;
+    font-weight:bold;
+}
+
+.enormail-form-wrapper {
+    margin-top:20px;
+}
+
+.enormail-webform-preview {
+    margin:20px 0;
+    width:100%;
+}
+
+.enormail-preview-frame {
+    width:100%;
+    border:4px solid #ddd;
+    min-height:450px;
+}
+
+.enormail-table-wrapper {
+    margin-top:20px;
+}
+
+.enormail-tinymce-content {
+    padding:5px 20px;
+}
+
+.enormail-input-select-lg {
+    padding:4px 8px;
+    font-size:13px;
+}
+
+.enormail-heading-inline {
+    display:inline-block;
+}
+
+.enormail-heading-action {
+    display:inline-block;
+    margin:12px 0 0 8px !important;
+}

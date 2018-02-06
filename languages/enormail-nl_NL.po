@@ -1,0 +1,238 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2017-03-01 20:02+0100\n"
+"PO-Revision-Date: 2017-03-01 20:02+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class-enormail-admin.php:126 admin/class-enormail-admin.php:127
+#: admin/partials/enormail-admin-forms.php:11
+#: includes/class-enormail-forms-list.php:14
+msgid "Forms"
+msgstr "Formulieren"
+
+#: admin/class-enormail-admin.php:135 admin/class-enormail-admin.php:136
+msgid "Settings"
+msgstr "Instellingen"
+
+#: admin/partials/enormail-admin-add-form.php:11
+msgid "Create new form"
+msgstr "Nieuw formulier toevoegen"
+
+#: admin/partials/enormail-admin-add-form.php:18
+#: admin/partials/enormail-admin-edit-form.php:19
+msgid "Form title"
+msgstr "Formulier naam"
+
+#: admin/partials/enormail-admin-add-form.php:20
+msgid "New form"
+msgstr "Nieuw formulier"
+
+#: admin/partials/enormail-admin-add-form.php:21
+#: admin/partials/enormail-admin-edit-form.php:22
+msgid "This title won't be displayed in public"
+msgstr "Deze titel zal niet worden getoond op je website"
+
+#: admin/partials/enormail-admin-add-form.php:25
+#: admin/partials/enormail-admin-edit-form.php:26
+msgid "Embed form"
+msgstr "Koppel Enormail formulier"
+
+#: admin/partials/enormail-admin-add-form.php:32
+#: admin/partials/enormail-admin-edit-form.php:33
+msgid "This form will be embedded from your Enormail account"
+msgstr "Dit formulier zal worden gekoppeld uit je Enormail account"
+
+#: admin/partials/enormail-admin-add-form.php:39
+#: admin/partials/enormail-admin-forms.php:12
+msgid "Create form"
+msgstr "Formulier toevoegen"
+
+#: admin/partials/enormail-admin-api-key.php:11
+#: admin/partials/enormail-admin-api-key.php:20
+msgid "Enormail API key"
+msgstr "Enormail API sleutel"
+
+#: admin/partials/enormail-admin-api-key.php:12
+msgid ""
+"We need an API key to connect your Enormail account to your Wordpress "
+"website. Please login to your Enormail account and create an API key."
+msgstr ""
+"Om je Enormail account aan je Wordpress website te koppelen hebben we een "
+"API sleutel nodig. Login op je Enormail account en kopieer je API sleutel."
+
+#: admin/partials/enormail-admin-api-key.php:22
+msgid "Don't have an API key?"
+msgstr "Heb je geen API sleutel?"
+
+#: admin/partials/enormail-admin-api-key.php:22
+msgid "Create an Enormail API key!"
+msgstr "Maak een API sleutel aan!"
+
+#: admin/partials/enormail-admin-api-key.php:26
+msgid "Connect your Enormail account"
+msgstr "Koppel je Enormail account"
+
+#: admin/partials/enormail-admin-edit-form.php:11
+msgid "Edit form"
+msgstr "Formulier wijzigen"
+
+#: admin/partials/enormail-admin-edit-form.php:40
+msgid "Save form"
+msgstr "Formulier opslaan"
+
+#: admin/partials/enormail-admin-tinymce-window.php:3
+msgid "Enormail subscribe form"
+msgstr "Enormail aanmeldformulier"
+
+#: admin/partials/enormail-admin-tinymce-window.php:13
+msgid "Add form"
+msgstr "Formulier toevoegen"
+
+#: admin/partials/enormail-admin-tinymce-window.php:17
+msgid "Select a subscribe form to embed in your post or page."
+msgstr "Selecteer het formulier dat je in je post of webpagina wilt insluiten."
+
+#: admin/partials/enormail-admin-tinymce-window.php:20
+#: includes/class-enormail-forms-list.php:13
+msgid "Form"
+msgstr "Formulier"
+
+#: admin/partials/enormail-admin-tinymce-window.php:28
+msgid "Add form shortcode"
+msgstr "Shortcode invoegen"
+
+#: admin/partials/enormail-admin-widget-form.php:2
+msgid "Select a form"
+msgstr "Selecteer een aanmeldformulier"
+
+#: includes/class-enormail-forms-list.php:89
+msgid "No forms available."
+msgstr ""
+"Er zijn geen formulieren gevonden. <a href=\"admin.php?page=enormail-"
+"admin&view=add_form\">Voeg een nieuw formulier toe</a>."
+
+#: includes/class-enormail-forms-list.php:100
+msgid "Name"
+msgstr "Naam"
+
+#: includes/class-enormail-forms-list.php:101
+msgid "formid"
+msgstr "Formid"
+
+#: includes/class-enormail-forms-list.php:102
+msgid "active"
+msgstr "Actief"
+
+#: includes/class-enormail-forms-list.php:103
+msgid "created_at"
+msgstr "Aangemaakt"
+
+#: includes/class-enormail-forms-list.php:167
+msgid "Yes"
+msgstr "Ja"
+
+#: includes/class-enormail-forms-list.php:167
+msgid "No"
+msgstr "Nee"
+
+#: includes/class-enormail-notifications.php:16
+msgid "Your API key is updated and your Enormail account has been connected."
+msgstr "Je API sleutel is opgeslagen en je Enormail account is gekoppeld."
+
+#: includes/class-enormail-notifications.php:21
+msgid "Your API key is invalid or disabled, please update your settings."
+msgstr ""
+"Je API sleutel is niet geldig of niet beschikbaar, wijzig je instellingen."
+
+#: includes/class-enormail-notifications.php:26
+msgid "Your form has been created."
+msgstr "Je formulier is toegevoegd."
+
+#: includes/class-enormail-notifications.php:31
+msgid "Your form has been saved."
+msgstr "Je formulier is opgeslagen."
+
+#: includes/class-enormail-notifications.php:36
+msgid "You have already embedded this form in your website."
+msgstr "Je hebt dit formulier al aan je website gekoppeld."
+
+#: includes/class-enormail-notifications.php:41
+msgid "We could not find this form."
+msgstr "Dit formulier kon niet worden gevonden."
+
+#: includes/class-enormail-notifications.php:46
+msgid "Your form has been deactivated."
+msgstr "Je formulier is gedeactiveerd."
+
+#: includes/class-enormail-notifications.php:51
+msgid "Your form has been activated."
+msgstr "Je formulier is geactiveerd."
+
+#: includes/class-enormail-notifications.php:56
+msgid "Your form has been deleted."
+msgstr "Je formulier is verwijderd."
+
+#: includes/class-enormail-widget.php:42
+msgid "Enormail Formulier"
+msgstr "Enormail aanmeldformulier"
+
+#: includes/class-enormail-widget.php:45
+msgid "Displays an Enormail subscribe form."
+msgstr "Toont een Enormail aanmeldformulier."
+
+#: includes/class-enormail-widget.php:105
+msgid ""
+"You do not have any forms to display. <a href=\"admin.php?page=enormail-admin"
+"\">Please create a new form first</a>."
+msgstr ""
+"Je hebt nog geen formulieren gekoppeld. <a href=\"admin.php?page=enormail-"
+"admin\">Koppel een Enormail aanmeldformulier</a>."
+
+#: includes/tinymce/i18n.php:13
+msgid "Add an Enormail signup form"
+msgstr "Voeg een Enormail formulier toe"
+
+#: includes/tinymce/i18n.php:14
+msgid "Enormail form"
+msgstr "Enormail formulier"
+
+#~ msgid "Add Shortcode"
+#~ msgstr "Shortcode toevoegen"
+
+#~ msgid "You do not have any forms to display. Please create a new form first"
+#~ msgstr ""
+#~ "Je hebt nog geen formulieren gekoppeld. <a href=\"admin.php?page=enormail-"
+#~ "admin\">Koppel een Enormail aanmeldformulier</a>."
+
+#~ msgid "You do not have any forms to display. Please create a new form"
+#~ msgstr ""
+#~ "Je hebt nog geen formulieren gekoppeld, Koppel eerst een Enormail "
+#~ "aanmeldformulier."
+
+#~ msgid ""
+#~ "We need an API key to connect your Enormail account to your Wordpress "
+#~ "website.\n"
+#~ "Please login to your Enormail account and create an API key."
+#~ msgstr ""
+#~ "Om je Enormail account aan je Wordpress website te koppelen hebben we een "
+#~ "API sleutel nodig. Login op je Enormail account en kopieer je API sleutel."
+
+#~ msgid "API KEY"
+#~ msgstr ""
+#~ "Om je Enormail account aan je Wordpress website te koppelen hebben we een "
+#~ "API sleutel nodig.\n"
+#~ "Login op je Enormail account en kopieer je API sleutel."
+
+#~ msgid "Select a form to embed from your Enormail account"
+#~ msgstr "Selecteer het formulier om te koppelen uit je Enormail account"
