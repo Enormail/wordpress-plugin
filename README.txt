@@ -77,6 +77,9 @@ the options for displaying the popup.
 
 == Changelog ==
 
+= 1.1.0 =
+* Added WooCommerce support
+
 = 1.0.0 =
 * First release
 

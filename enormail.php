@@ -39,6 +39,9 @@ define( 'ENORMAIL_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
 // Define embed script url
 define( 'ENORMAIL_EMBED_URL', 'https://embed.enormail.eu/js/' );
 
+// Location of WooCommerce plugin
+define( 'ENORMAIL_WOOCOMMERCE_PLUGIN_PATH', 'woocommerce/woocommerce.php');
+
 /**
  * The code that runs during plugin activation.
  * This action is documented in includes/class-enormail-activator.php

@@ -139,6 +139,17 @@ class Enormail_Admin {
             array( $this, 'display_api_key_page' )
         );
 
+        if (is_plugin_active(ENORMAIL_WOOCOMMERCE_PLUGIN_PATH)) {
+            add_submenu_page(
+                'enormail-admin',
+                __( 'WooCommerce', 'enormail' ),
+                __( 'WooCommerce', 'enormail' ),
+                'manage_options',
+                'enormail-woocommerce',
+                array( $this, 'display_woocommerce_page' )
+            );
+        }
+
     }
 
     public function init_page() {
@@ -290,6 +301,20 @@ class Enormail_Admin {
 
     }
 
+    public function display_woocommerce_page() {
+
+        global $wpdb;
+
+	    if ( isset( $_GET['noheader'] ) && $_GET['noheader'] == 'true' ) {
+            require_once( ABSPATH . 'wp-admin/admin-header.php' );
+        }
+
+        $apiListsList = $this->get_api_lists_list();
+
+        require_once( __DIR__ . '/partials/enormail-admin-woocommerce.php' );
+
+    }
+
     private function verify_api_key($apiKey) {
 
 	    $client = new EMAPI($apiKey, 'json');
@@ -327,6 +352,20 @@ class Enormail_Admin {
         }
 
         return $apiFormList;
+
+    }
+
+    private function get_api_lists_list() {
+
+        $apiListsList = false;
+
+        if ( $lists = $this->call_api( 'lists', 'get' ) ) {
+            foreach ( $lists as $list ) {
+                $apiListsList[ $list['listid'] ] = $list['title'];
+            }
+        }
+
+        return $apiListsList;
 
     }
 
